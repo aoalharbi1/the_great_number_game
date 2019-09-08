@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+}
+
+h1 {
+    margin: 0px 0px 0px 0px;
+}
+p {
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+}
+input{
+    width: 100px;
+}
+.guess{
+    margin: 30px 0px 0px 0px;
+}
+.wrong {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 140px;
+    height: 150px;
+    background-color: red;
+    color: white;
+    align-items: center;
+    border: 2px black solid;
+}
+.got_it {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 150px;
+    background-color: green;
+    color: white;
+    border: 2px black solid;
+}
